@@ -1,0 +1,116 @@
+
+*{border: none;}
+
+body{font-family: Helvetica, arial, freesans, clean, sans-serif;}
+
+#wrapper{width: 940px;
+		margin: 0 auto;
+		background-color: #ffffff;
+}
+header {}
+nav    {}
+
+main   {
+	padding: 30px;
+	border:1px solid rgb(221, 221, 221);
+	color: rgb(51, 51, 51);
+	font-family: ;
+	font-size: 15px;
+	line-height: 25.5px;
+	}
+
+main h1, h2, h3 {
+	padding: 10px 0 20px 0;
+	margin-bottom: 15px;
+	color: rgb(51, 51, 51);
+	border-bottom-color: rgb(221, 221, 221);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	box-sizing: border-box;
+}
+main p { 
+	margin: 15px 0;
+	}
+
+main code{
+	line-height: 20.399999618530273px;
+	font-family: Consolas, 'Liberation Mono', Courier, monospace;
+	font-size: 12px;
+	background-color: rgb(248, 248, 248);
+	border: 1px solid rgb(221, 221, 221);
+	border-radius: 3px;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 2px 3px;
+}
+
+figure{ width: 544px;
+		margin: 0 auto;}
+
+.outlines {color: #00688B;
+			font-size: 14px;
+			background-color: rgb(248, 248, 248);
+			border: 1px solid rgb(221, 221, 221);
+			padding-top: 10px;
+			padding-bottom: 10px;
+			list-style-type: none;}
+.no-bullets{ list-style-type: none;}
+
+.liststyle {
+	margin-bottom: 15px 0;
+	padding-bottom: 0 0 0 30px;
+}
+
+table {background-color: rgb(248, 248, 248);
+		border: 1px solid rgb(221, 221, 221);
+		border-collapse: collapse;
+		width: 100%;
+	}
+
+.left-column {width: 50%;}
+
+thead {text-align: center;
+		font-weight: 700;}
+
+td {border: 1px solid rgb(221, 221, 221);
+	padding: 8px;}
+
+
+.gridSystem {margin-right: -20px;}
+
+.grid {display: block;
+		margin: 0 20px 20px 0;
+		padding: 20px;
+		float: left;
+		background-color: #a14f4f;}
+
+.g-A {width: 20px;}		
+.g-B {width: 100px;}
+.g-C {width: 180px;}
+.g-D {width: 260px;}
+.g-E {width: 340px;}
+.g-F {width: 420px;}
+.g-G {width: 500px;}
+.g-H {width: 580px;}
+.g-I {width: 660px;}
+.g-J {width: 740px;}
+.g-K {width: 820px;}
+.g-L {width: 900px;}
+
+footer p {font-size: 20px;
+		text-align: center;
+			}
+
+footer {height: 60px;
+		background-color: #666666;
+		color: #ffffff;
+		line-height: 60px;}
+
+.clearfix:after{ content: "";
+		display: table;
+		clear: both;}
+
+a:link {color:#000000;}      /* unvisited link */
+a:visited {color:#000000;}  /* visited link */
+a:hover {color:#cccccc;}  /* mouse over link */
+a:active {color:#000000;}  /* selected link */
